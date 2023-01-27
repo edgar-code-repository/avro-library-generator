@@ -1,19 +1,15 @@
 plugins {
     id 'java'
+    id "com.commercehub.gradle.plugin.avro" version "0.9.0"
 }
 
 group 'com.domain.example'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
-
-test {
-    useJUnitPlatform()
+    compile "org.apache.avro:avro:1.8.2"
 }
