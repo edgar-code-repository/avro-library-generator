@@ -1,10 +1,3 @@
-AVRO LIBRARY GENERATOR
------------------------------------------------------------------
-
-An Avro schema is created in the directory "src/main/avro":
-
-```
-
 {
   "type" : "record",
   "name" : "AvroMessageDTO",
@@ -15,7 +8,3 @@ An Avro schema is created in the directory "src/main/avro":
     { "name" : "description",  "type" : "string" }
   ]
 }
-
-```
-
------------------------------------------------------------------
