@@ -20,14 +20,14 @@ https://github.com/edgar-code-repository/avro-schema-generator
       "fields" : [
         { "name" : "code", "type" : "int" },
         { "name" : "message",  "type" : "string" },
-        { "name" : "description",  "type" : "string" }
+        { "name" : "description", "type" : [ "null", "string" ], "default" : null }
       ]
-    }     
+    }
 ```
 
 -----------------------------------------------------------------
 
-In order to generate the Jar a plugin and 
+In order to generate the Jar, a plugin and 
 a dependency are needed in the build.gradle file.
 
 Plugins:

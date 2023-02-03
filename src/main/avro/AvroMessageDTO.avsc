@@ -5,6 +5,6 @@
   "fields" : [
     { "name" : "code", "type" : "int" },
     { "name" : "message",  "type" : "string" },
-    { "name" : "description",  "type" : "string" }
+    { "name" : "description", "type" : [ "null", "string" ], "default" : null }
   ]
 }
